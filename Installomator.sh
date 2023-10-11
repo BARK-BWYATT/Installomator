@@ -2027,13 +2027,6 @@ arq7)
     appNewVersion="$(curl -fs "https://arqbackup.com" | grep -io "version .*[0-9.]*.* for macOS" | cut -d ">" -f2 | cut -d "<" -f1)"
     expectedTeamID="48ZCSDVL96"
     ;;
-asana)
-     # credit: Lance Stephens (@pythoninthegrass on MacAdmins Slack)
-     name="Asana"
-     type="dmg"
-     downloadURL="https://desktop-downloads.asana.com/darwin_x64/prod/latest/Asana.dmg"
-     expectedTeamID="A679L395M8"
-     ;;
 atext)
     # credit: Gabe Marchan (gabemarchan.com - @darklink87)
     name="aText"
